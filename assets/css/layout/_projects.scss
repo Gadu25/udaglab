@@ -1,0 +1,39 @@
+.projects {
+  padding: $space-2xl 0;
+  border-top: 1px solid var(--border-color);
+
+  &__container {
+    max-width: $max-width;
+    margin: 0 auto;
+    padding: 0 $space-lg;
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: $space-lg;
+  }
+
+  &__empty {
+    text-align: center;
+    color: var(--secondary-text-color);
+    padding: $space-2xl 0;
+  }
+
+  &__clear {
+    margin-top: $space-lg;
+    font-size: $font-size-xs;
+    padding: $space-xs $space-md;
+    border-radius: $radius-full;
+    border: 1px solid var(--border-color);
+    background: transparent;
+    color: var(--secondary-text-color);
+    cursor: pointer;
+    transition: border-color $transition-base, color $transition-base;
+
+    &:hover {
+      border-color: var(--accent-color);
+      color: var(--accent-color);
+    }
+  }
+}

@@ -1,0 +1,48 @@
+.status-badge {
+  font-family: $font-mono;
+  font-size: $font-size-2xs;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 2px $space-sm;
+  border-radius: $radius-full;
+  border: 1px solid var(--border-color);
+
+  &--live {
+    color: var(--status-up);
+    border-color: var(--status-up);
+  }
+
+  &--beta {
+    color: #f59e0b;
+    border-color: #f59e0b;
+  }
+
+  &--stale {
+    color: var(--status-unknown);
+    border-color: var(--status-unknown);
+  }
+
+  &--experiment {
+    color: #a855f7;
+    border-color: #a855f7;
+  }
+}
+
+.status-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: $radius-full;
+
+  &--up {
+    background: var(--status-up);
+  }
+
+  &--down {
+    background: var(--status-down);
+  }
+
+  &--unknown {
+    background: var(--status-unknown);
+  }
+}

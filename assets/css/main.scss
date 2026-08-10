@@ -6,6 +6,11 @@
 @import './layout/footer';
 @import './layout/hero';
 @import './layout/about';
+@import './layout/projects';
+
+@import './components/status';
+@import './components/filter-bar';
+@import './components/project-card';
 
 *,
 *::before,

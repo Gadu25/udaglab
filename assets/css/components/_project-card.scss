@@ -1,0 +1,78 @@
+.project-card {
+  display: flex;
+  flex-direction: column;
+  gap: $space-md;
+  background: var(--surface-color);
+  border: 1px solid var(--border-color);
+  border-radius: $radius-md;
+  padding: $space-lg;
+  transition: border-color $transition-base, transform $transition-base;
+
+  &:hover {
+    border-color: var(--accent-color);
+    transform: translateY(-2px);
+  }
+
+  &__head {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: $space-sm;
+  }
+
+  &__status-line {
+    display: flex;
+    gap: $space-xs;
+    margin-right: auto;
+  }
+
+  &__title {
+    font-size: $font-size-md;
+  }
+
+  &__desc {
+    color: var(--secondary-text-color);
+  }
+
+  &__tech {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: $space-xs;
+  }
+
+  &__tech-item {
+    border: 1px solid var(--border-color);
+    border-radius: $radius-full;
+    padding: 2px $space-sm;
+
+    small {
+      color: var(--secondary-text-color);
+    }
+  }
+
+  &__actions {
+    display: flex;
+    align-items: center;
+    gap: $space-md;
+    margin-top: auto;
+  }
+
+  &__link {
+    font-size: $font-size-sm;
+    color: var(--accent-color);
+    transition: opacity $transition-base;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  &__gh {
+    color: var(--secondary-text-color);
+
+    &:hover {
+      color: var(--text-color);
+    }
+  }
+}
