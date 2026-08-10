@@ -1,0 +1,35 @@
+@import './abstracts/variables';
+@import './base/typography';
+@import './themes/colors';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  transition: background-color $transition-slow, color $transition-slow;
+  background-color: var(--background-color);
+  background-image: radial-gradient(circle at 50% 0%, rgba(34, 211, 238, 0.06), transparent 40%);
+  color: var(--text-color);
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+::selection {
+  background-color: var(--accent-dim);
+  color: var(--text-color);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}

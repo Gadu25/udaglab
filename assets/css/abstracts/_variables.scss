@@ -1,0 +1,30 @@
+// Spacing
+$space-xs: 4px;
+$space-sm: 8px;
+$space-md: 16px;
+$space-lg: 24px;
+$space-xl: 40px;
+$space-2xl: 64px;
+$space-3xl: 96px;
+
+// Border radius
+$radius-sm: 6px;
+$radius-md: 12px;
+$radius-lg: 20px;
+$radius-full: 9999px;
+
+// Transitions
+$transition-fast: 0.15s ease;
+$transition-base: 0.25s ease;
+$transition-slow: 0.4s ease;
+
+// Breakpoints
+$bp-mobile: 480px;
+$bp-narrow: 650px;
+$bp-tablet: 768px;
+$bp-desktop: 1024px;
+$bp-wide: 1200px;
+
+// Layout
+$max-width: 1100px;
+$nav-height: 60px;
