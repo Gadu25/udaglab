@@ -55,7 +55,7 @@ export default [
   {
     name: 'Megome',
     description: 'An API-first portfolio platform that lets developers store, manage, and expose their career data through a structured REST API, with a full-featured Next.js dashboard.',
-    url: '',
+    url: 'https://megome-beta.udaglab.com',
     tech: ['Go', 'gorilla/mux', 'Next.js', 'TypeScript', 'Tailwind', 'MySQL'],
     status: 'beta',
     category: 'web-app',
@@ -66,7 +66,7 @@ export default [
   {
     name: 'Type Fight',
     description: 'A real-time multiplayer typing game where players battle each other by typing phrases, featuring attack tiers, combo mechanics, and WebSocket-powered combat.',
-    url: '',
+    url: 'https://typefight.udaglab.com',
     tech: ['Go', 'Next.js', 'TypeScript', 'Tailwind', 'WebSocket'],
     status: 'beta',
     category: 'game',
