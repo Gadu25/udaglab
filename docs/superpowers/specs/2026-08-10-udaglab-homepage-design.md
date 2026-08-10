@@ -61,8 +61,8 @@ Dark, lab/terminal-inspired aesthetic:
    ("Added CatchThemAll", "Project X updated"). Keeps the site alive without
    a full blog.
 7. **Link Status Indicators** — subtle dot per project card indicating
-   whether the linked URL is reachable (up / down / unknown). Determined by a
-   server route that HEAD-checks URLs.
+   whether the linked URL is reachable (up / down / unknown). Computed at
+   build time (see Implementation Notes).
 8. **Footer** — socials, copyright.
 
 ## Data Model
@@ -100,9 +100,12 @@ Array of changelog entries:
 
 - Static generation (`nuxt generate`); no runtime server required in prod.
 - Filters/search are pure client-side over the local data arrays.
-- Link status achieved via a Nuxt server route `/api/status` that performs a
-  HEAD request per URL and returns up/down/unknown. Used during static build
-  to bake statuses into the generated page. Unknown = unreachable/timeout.
+- Link status is computed at build time: a small pre-build step ("nuxt
+  generate" hooks or a build script) performs a HEAD request per project URL
+  and bakes up/down/unknown results into the generated page as a
+  `statuses.json` data file. Browser-side runtime checks are NOT used —
+  cross-origin HEAD requests are blocked by CORS in browsers. Unknown =
+  unreachable/timeout.
 - Reuse layout, typography, and component conventions from `portfolio-v2`
   for visual consistency.
 
