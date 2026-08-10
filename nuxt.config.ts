@@ -7,6 +7,12 @@ import projects from './data/projects'
 export default defineNuxtConfig({
   compatibilityDate: '2024-07-01',
   devtools: { enabled: process.env.NODE_ENV !== 'production' },
+  components: [
+    {
+      path: '~/components',
+      pathPrefix: false,
+    },
+  ],
   css: ['~/assets/css/main.scss'],
   app: {
     head: {
