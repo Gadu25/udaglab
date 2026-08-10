@@ -1,0 +1,49 @@
+.hero {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+
+  &__container {
+    max-width: $max-width;
+    margin: 0 auto;
+    padding: $space-3xl $space-lg;
+    display: flex;
+    flex-direction: column;
+    gap: $space-lg;
+  }
+
+  &__eyebrow {
+    font-family: $font-mono;
+    font-size: $font-size-sm;
+    color: var(--secondary-text-color);
+  }
+
+  &__title {
+    max-width: 12ch;
+  }
+
+  &__accent {
+    color: var(--accent-color);
+  }
+
+  &__subtitle {
+    max-width: 60ch;
+    color: var(--secondary-text-color);
+  }
+
+  &__cta {
+    display: inline-block;
+    width: fit-content;
+    padding: $space-sm $space-lg;
+    border: 1px solid var(--accent-color);
+    border-radius: $radius-full;
+    color: var(--accent-color);
+    font-size: $font-size-sm;
+    transition: background-color $transition-base, color $transition-base;
+
+    &:hover {
+      background: var(--accent-color);
+      color: var(--background-color);
+    }
+  }
+}
