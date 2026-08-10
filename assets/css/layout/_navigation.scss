@@ -1,0 +1,50 @@
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(10, 10, 10, 0.8);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--border-color);
+
+  &__container {
+    max-width: $max-width;
+    margin: 0 auto;
+    padding: 0 $space-lg;
+    height: $nav-height;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__brand {
+    font-weight: $font-weight-semibold;
+    letter-spacing: -0.01em;
+    color: var(--text-color);
+  }
+
+  &__links {
+    display: flex;
+    gap: $space-lg;
+    align-items: center;
+  }
+
+  &__link {
+    font-size: $font-size-sm;
+    color: var(--secondary-text-color);
+    transition: color $transition-base;
+
+    &:hover {
+      color: var(--accent-color);
+    }
+
+    &--social {
+      color: var(--accent-color);
+    }
+  }
+}
+
+@media screen and (max-width: $bp-mobile) {
+  .nav__links {
+    gap: $space-md;
+  }
+}

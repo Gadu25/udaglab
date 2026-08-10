@@ -2,6 +2,9 @@
 @import './base/typography';
 @import './themes/colors';
 
+@import './layout/navigation';
+@import './layout/footer';
+
 *,
 *::before,
 *::after {
