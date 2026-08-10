@@ -3,5 +3,6 @@
     <HeroSection />
     <AboutSection />
     <ProjectsSection />
+    <ChangelogSection />
   </div>
 </template>
