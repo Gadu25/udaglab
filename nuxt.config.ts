@@ -19,6 +19,11 @@ export default defineNuxtConfig({
         { name: 'description', content: 'UdagLab — where ideas become experiments.' },
         { name: 'keywords', content: 'UdagLab, projects, experiments, web developer, Alexander Udag' },
         { name: 'theme-color', content: '#0a0a0a' },
+        { property: 'og:title', content: 'UdagLab' },
+        { property: 'og:description', content: 'UdagLab — where ideas become experiments.' },
+        { property: 'og:url', content: 'https://udaglab.com/' },
+        { property: 'og:type', content: 'website' },
+        { name: 'twitter:card', content: 'summary' },
       ],
       link: [
         {
