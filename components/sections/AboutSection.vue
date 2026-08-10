@@ -8,7 +8,7 @@
         stack felt fun at the time: Nuxt, Next, React, Go, WordPress, and more.
       </p>
       <p class="about__body">
-        If you want the polished version of me, that lives over at the portfolio. This is the messy workbench.
+        If you want the polished version of me, that lives over at the <a href="https://alexander.udaglab.com" target="_blank">portfolio</a>. This is the messy workbench.
       </p>
     </div>
   </section>

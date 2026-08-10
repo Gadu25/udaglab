@@ -3,7 +3,7 @@
     <HeroSection />
     <AboutSection />
     <ProjectsSection />
-    <ChangelogSection />
+    <!-- <ChangelogSection /> -->
   </div>
 </template>
 
@@ -17,6 +17,7 @@ useSeoMeta({
   twitterTitle: 'UdagLab',
   twitterDescription: 'Where ideas become experiments.',
   twitterCard: 'summary',
+  ogImage: '/images/app-icon.png',
 })
 
 useHead({

@@ -28,7 +28,7 @@ html {
 body {
   transition: background-color $transition-slow, color $transition-slow;
   background-color: var(--background-color);
-  background-image: radial-gradient(circle at 50% 0%, rgba(34, 211, 238, 0.06), transparent 40%);
+  background-image: radial-gradient(ellipse 80% 50% at 50% 0%, rgba(34, 211, 238, 0.06), transparent 60%);
   color: var(--text-color);
   overflow-x: hidden;
   min-height: 100vh;

@@ -29,6 +29,7 @@ export default defineNuxtConfig({
         { property: 'og:description', content: 'UdagLab — where ideas become experiments.' },
         { property: 'og:url', content: 'https://udaglab.com/' },
         { property: 'og:type', content: 'website' },
+        { property: 'og:image', content: '/images/app-icon.png' },
         { name: 'twitter:card', content: 'summary' },
       ],
       link: [
@@ -36,6 +37,8 @@ export default defineNuxtConfig({
           rel: 'stylesheet',
           href: 'https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap',
         },
+        { rel: 'icon', type: 'image/png', href: '/images/app-icon.png' },
+        { rel: 'apple-touch-icon', href: '/images/app-icon.png' },
       ],
     },
   },
