@@ -200,7 +200,7 @@ git commit -m "feat: add workbench section styles"
 
 Run:
 ```bash
-npm run build
+npm run generate
 ```
 
 Expected: build succeeds and the generated HTML contains the workbench intro text.

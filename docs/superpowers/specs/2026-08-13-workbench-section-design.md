@@ -144,7 +144,6 @@ Style should be consistent with existing sections:
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
     gap: $space-lg;
-    list-style: none;
   }
 
   &__tool {
