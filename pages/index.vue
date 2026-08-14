@@ -2,6 +2,7 @@
   <div class="index">
     <HeroSection />
     <AboutSection />
+    <WorkbenchSection />
     <ProjectsSection />
     <!-- <ChangelogSection /> -->
   </div>

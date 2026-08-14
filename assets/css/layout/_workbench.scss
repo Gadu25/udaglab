@@ -1,0 +1,39 @@
+.workbench {
+  padding: $space-2xl 0;
+  border-top: 1px solid var(--border-color);
+
+  &__container {
+    max-width: $max-width;
+    margin: 0 auto;
+    padding: 0 $space-lg;
+    display: flex;
+    flex-direction: column;
+    gap: $space-lg;
+  }
+
+  &__body {
+    max-width: 70ch;
+    color: var(--secondary-text-color);
+  }
+
+  &__tools {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: $space-lg;
+  }
+
+  &__tool {
+    padding: $space-md;
+    border: 1px solid var(--border-color);
+    border-radius: $radius-md;
+
+    dt {
+      font-weight: $font-weight-semibold;
+    }
+
+    dd {
+      color: var(--secondary-text-color);
+      margin-top: $space-xs;
+    }
+  }
+}
