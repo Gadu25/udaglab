@@ -3,9 +3,10 @@
     <div class="workbench__container">
       <h2 class="workbench__title">Workbench</h2>
       <p class="workbench__body">
-        I build everything from the terminal on Linux — not to flex, I just prefer it
-        that way. No GUI IDE, no mouse-heavy workflow. Neovim is my editor, Opencode
-        is the AI I pair with, and herdr keeps my terminal sessions organized.
+        I build everything from the terminal on Linux. Not because it makes me
+        hardcore — I just got used to it and going back feels weird. Neovim for
+        editing, Opencode when I want an extra brain, and herdr so my tmux
+        sessions don't spiral out of control.
       </p>
       <dl class="workbench__tools">
         <div class="workbench__tool">
