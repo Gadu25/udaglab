@@ -14,6 +14,9 @@
   &__body {
     max-width: 70ch;
     color: var(--secondary-text-color);
+    a {
+      color: var(--accent-color);
+    }
   }
 
   &__tools {
