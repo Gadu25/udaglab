@@ -22,12 +22,12 @@
         </div>
         <div class="workbench__tool">
           <dt>herdr</dt>
-          <dd>An AI-driven terminal multiplexer built on top of tmux.</dd>
+          <dd>An AI-driven terminal multiplexer with its own session and PTY management.</dd>
         </div>
       </dl>
       <p class="workbench__body">
-        If you're curious about the setup,
-        <a href="https://github.com/Gadu25/my-nvim-config" target="_blank" rel="noopener noreferrer">here's my Neovim config</a>.
+        If you're curious about the setup, you can check my 
+        <a href="https://github.com/Gadu25/my-nvim-config" target="_blank" rel="noopener noreferrer">Neovim config</a>.
       </p>
     </div>
   </section>

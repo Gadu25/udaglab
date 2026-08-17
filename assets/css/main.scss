@@ -1,18 +1,18 @@
-@import './abstracts/variables';
-@import './base/typography';
-@import './themes/colors';
+@use './abstracts/variables' as *;
+@use './base/typography';
+@use './themes/colors';
 
-@import './layout/navigation';
-@import './layout/footer';
-@import './layout/hero';
-@import './layout/about';
-@import './layout/workbench';
-@import './layout/projects';
-@import './layout/changelog';
+@use './layout/navigation';
+@use './layout/footer';
+@use './layout/hero';
+@use './layout/about';
+@use './layout/workbench';
+@use './layout/projects';
+@use './layout/changelog';
 
-@import './components/status';
-@import './components/filter-bar';
-@import './components/project-card';
+@use './components/status';
+@use './components/filter-bar';
+@use './components/project-card';
 
 *,
 *::before,
