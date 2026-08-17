@@ -1,3 +1,6 @@
+@use '../abstracts/variables' as *;
+@use '../base/typography' as *;
+
 .hero {
   min-height: 70vh;
   display: flex;
